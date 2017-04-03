@@ -1,0 +1,71 @@
+# ----------------------------------
+
+# REFERENCE
+# https://www.gitignore.io
+
+# ----------------------------------
+# OS FILES
+
+# osx
+._*
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ----------------------------------
+# LOGS CACHE BACKUP
+
+# vim swp files
+.*.sw[a-p]
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# runtime data
+pids
+*.pid
+*.seed
+
+# optional npm cache directory
+.npm
+
+# optional REPL history
+.node_repl_history
+
+# grunt intermediate storage
+.grunt
+
+# nyc test coverage
+.nyc_output
+
+# node-waf configuration
+.lock-wscript
+
+# ----------------------------------
+# DEPENDENCIES
+
+# nodejs
+node_modules
+
+# ----------------------------------
+# PROJECT
+
+# ~
+
+# ----------------------------------
